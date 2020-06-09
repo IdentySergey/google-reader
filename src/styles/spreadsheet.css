@@ -1,0 +1,45 @@
+.spreadsheet{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.spreadsheet-column{
+    padding: 25px;
+    display: flex;
+}
+
+.spreadsheet-column-left{
+    padding: 0 0 0 15px;
+    align-self: center;
+}
+
+.spreadsheet-loading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.spreadsheet-row-hr{
+    width: 20px;
+    height: 5px;
+}
+
+.spreadsheet-row-image-wrapper{
+    text-align: center;
+}
+
+.spreadsheet-row-image{
+    max-height: 50px;
+    min-height: 50px;
+    border-radius: 8px;
+}
+
+.spreadsheet-row-text{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 2px;
+}

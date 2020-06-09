@@ -1,0 +1,10 @@
+.main{
+
+}
+
+.main-loading, .main-no_file{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #555555;
+}

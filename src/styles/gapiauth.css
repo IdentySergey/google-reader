@@ -1,0 +1,19 @@
+.gapi-signin, .gapi-loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gapi-loading{
+    color: #555555;
+}
+
+.gapi-signin-content{
+    padding: 10px;
+    text-align: center;
+}
+
+.gapi-provider{
+
+}
