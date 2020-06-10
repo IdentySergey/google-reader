@@ -61,7 +61,8 @@ class GApiAuth extends React.Component {
             scope: "https://www.googleapis.com/auth/documents.readonly " +
                 " https://www.googleapis.com/auth/drive.readonly" +
                 " https://www.googleapis.com/auth/drive" +
-                " https://www.googleapis.com/auth/drive.file "
+                " https://www.googleapis.com/auth/drive.file" +
+                " https://www.googleapis.com/auth/drive.metadata.readonly"
             ,
         }).then(_checkUserData);
     }
